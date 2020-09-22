@@ -1,5 +1,99 @@
-[class*="col-"] {
-    background-color: coral;
-    height: 50px;
+
+body{
+    background-color: whitesmoke;
+}
+
+ul{
+    list-style-type: none;
+    padding: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover{
+    font-size: 15px;
+}
+
+h1{
+    text-transform: uppercase;
+}
+
+.keyboard{
     border: 1px solid black;
+    border-radius: 4px;
+}
+
+.col-4.titolo{
+    text-align: center;
+    font-size: 20px;
+    padding: 20px 0;
+}
+
+ .white{
+    background-color: white;
+    border: 1px solid lightgrey;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    height: 210px;
+}
+
+.key{
+    border: 1px solid lightgrey;
+}
+
+.col-3.key:hover{
+    border: 2px solid grey;
+    transform: scaleX(0.8);
+}
+
+.black{
+    background-color: black;
+    height: 200px;
+}
+
+.nota{
+    font-size: 12px;
+}
+
+.links{
+    margin-top: 40px;
+}
+
+.leftside{
+    border: 3px solid black;
+    border-radius: 4px;
+    min-height: 230px;
+}
+
+.leftside h3{
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.leftside li{
+    padding: 5px 0;
+}
+
+.center img{
+    max-width: 100%;
+    padding: 55px 0;
+}
+
+.rightside{
+    text-align: right;
+    border: 3px solid black;
+    border-radius: 4px;
+    min-height: 230px;
+}
+
+.rightside h3{
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.rightside li{
+    padding: 5px 0;
 }
