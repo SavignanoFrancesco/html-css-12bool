@@ -59,7 +59,7 @@ h1{
 }
 
 .links{
-    margin-top: 40px;
+    margin-top: 65px;
 }
 
 .leftside{
@@ -96,4 +96,34 @@ h1{
 
 .rightside li{
     padding: 5px 0;
+}
+
+.simple-artwork{
+    margin-bottom: 10px;
+}
+
+.first-row{
+    margin-bottom: 2px;
+}
+
+.s-aw{
+    height: 80px;
+    background-color: black;
+}
+
+.s-aw.up{
+    border-top-right-radius: 50px;
+}
+
+.s-aw.up2{
+    border-top-left-radius: 50px;
+}
+
+.s-aw.middle{
+    border-top-left-radius: 200px;
+}
+
+.s-aw.bottom{
+    border-bottom-right-radius: 200px;
+    border-bottom-left-radius: 200px;
 }
